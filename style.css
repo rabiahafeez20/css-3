@@ -1,18 +1,22 @@
-.container-1 {
+*/{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+text-align: center;
+font-size: 65px;
+}
+
+.container {
     display: flex;
     flex-wrap: wrap;
-    gap: 18px;
-    padding: 30px;
+    gap: 30px;
+    padding: 40px;
+   margin: 40px auto;
 }
-.container-2 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 18px;
-    padding: 30px;
-    margin-top: 80px;
-}
+
 .box{
-    width: 140px;
+    width:140px;
     height: 120px;
      background: linear-gradient(to bottom, #ffbf00, #ff5a00, #ff1200);
      color: #111;
@@ -53,9 +57,8 @@
 }
  .case-10 {
     border-radius:  100% / 50px;
-}
-
-.case-a{
+ }
+  .case-a{
      border-style: solid ;
      border-width: 2px;
      border-color: #808080;
@@ -76,6 +79,7 @@
 .case-d{
     border-style: solid ;
      border-width: 5px;
+     border-bottom-style: none ;
      border-color: #808080;
     border-radius: 28px;
 }
@@ -84,15 +88,17 @@
      border-top-width: 5px;
      border-bottom: 0px;
      border-color: #808080;
-  border-radius: 30px 65px 0 0;
+     border-radius: 30px 65px 0 0;
   
 }
 .case-f{
     border-style: solid ;
-     border-top-width: 5px;
-     border-bottom-width: 15px;
+     border-top-width: 2px;
+     border-bottom-width: 10px;
+     border-left-width: 15px;
+     border-right-width: 5px;
      border-color: #808080;
-    border-radius: 30px 85px 20px 130px ;
+    border-radius: 30px 85px 25px 130px ;
 }
 .case-g{
     border-style: solid ;
@@ -106,43 +112,107 @@
      border-color: #808080;
     border-radius: 50% 50% 0 0;
 }
-
 .box-9{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 160px;
-    background: #808080;
-    border-style: solid ;
-    border-color:#808080 ;
-    border-radius: 16px;
-    
+width: 140px;
+height: 120px;
+border-radius: 15px;
+padding: 30px;
+background-color: #808080;
 }
-.case-i{
-    border-style: solid ;
-     border-width: 5px;
-     border-color: #808080;
-    border-radius: 0px;
-}
-
 .box-10{
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 180px;
-    height: 160px;
-    background: #808080;
-  border: 5px solid #808080;
-  border-top-left-radius: 20%;
-  border-top-right-radius: 20%;
-    
+    align-items: center;
+width: 160px;
+height: 140px;
+border-radius: 100% / 40px;
+padding: 30px;
+background-color: #808080;
 }
-.case-j{
- display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 160px;
-    background: #808080;
+  
+
+.box-m{
+    width:140px;
+    height: 120px;
+     color: #111;
+     font-size: 20px;
+    padding: 15px 20px ;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.case-A{
+     border-style: solid ;
+     border-width: 2px;
+     border-color: red yellow green blue;
+     border-radius: 14px;
+}
+.case-B{
+    border-style: solid ;
+     border-width: 5px;
+      border-color: red yellow green blue;
+    border-radius: 18px;
+}
+.case-C{
+    border-style: solid ;
+     border-width: 5px;
+     border-color: red yellow green blue;
+    border-radius: 24px;
+}
+.case-D{
+    border-style: solid ;
+     border-width: 5px;
+     border-bottom-style: none ;
+      border-color: red yellow green blue;
+    border-radius: 28px;
+}
+.case-E{
+    border-style: solid ;
+     border-top-width: 5px;
+     border-bottom: 0px;
+      border-color: red yellow green blue;
+     border-radius: 30px 65px 0 0;
+  
+}
+.case-F{
+    border-style: solid ;
+     border-top-width: 2px;
+     border-bottom-width: 10px;
+     border-left-width: 15px;
+     border-right-width: 5px;
+      border-color: red yellow green blue;
+    border-radius: 30px 85px 25px 130px ;
+}
+.case-G{
+    border-style: solid ;
+     border-width: 5px;
+      border-color: red yellow green blue;
+    border-radius: 50%;
+}
+.case-H{
+    border-style: solid ;
+    border-width: 5px;
+      border-color: red yellow green blue;
+    border-radius: 50% 50% 0 0;
+}
+
+.case-I{
+width: 200px;
+height: 180px;
+border-style: solid;
+border-radius: 15px;
+border-width: 30px;
+border-color: red yellow green blue;
+}
+
+.case-J{
+   
+width: 220px;
+height: 200px;
+border-style: solid;
+border-width: 40px;
+border-color: red yellow green blue;
+border-radius: 100% / 40px;
+
 }
